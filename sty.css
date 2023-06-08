@@ -251,3 +251,30 @@ table{
     color: #111;
     padding: 0. 5rem;
 }
+
+.Publication .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.Publication .Row .det{
+    flex: 1 1 48rem;
+    padding: 1rem 1rem;
+    padding-left: 8rem;
+}
+
+
+.Publication .Row .det h3{
+    font-size: 2rem;
+    color: darkslategrey;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Publication .Row .det h3 span{
+    color: #111;
+    padding: 0. 5rem;
+}
