@@ -16,6 +16,12 @@ body{
     padding-left: 35rem;
 }
 
+.zoom:hover {
+  -ms-transform: scale(3); /* IE 9 */
+  -webkit-transform: scale(3); /* Safari 3-8 */
+  transform: scale(3); 
+}
+
 .heading{
     text-align: center;
     margin: 0 6rem;
