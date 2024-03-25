@@ -198,6 +198,39 @@ table{
     padding: .5rem 1rem;
 }
 
+.Achievements .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.Achievements .Row .det{
+    flex: 1 1 48rem;
+    padding: 1rem 1rem;
+    padding-left: 8rem;
+}
+
+
+.Achievements .Row .det h3{
+    font-size: 2rem;
+    color: darkslategrey;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Achievements .Row .det h3 span{
+    color: #111;
+    padding: 0. 5rem;
+}
+#lis li{
+    margin: 0 9rem;
+    color: black;
+    font-size: large;
+    padding: .5rem 1rem;
+}
+
 .Certification .Row{
     display: flex;
     align-items: center;
